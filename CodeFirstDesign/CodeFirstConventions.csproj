@@ -67,6 +67,14 @@
     <Compile Include="Migrations\201812122021576_ClassificationEnum.Designer.cs">
       <DependentUpon>201812122021576_ClassificationEnum.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812132224317_VideosNameChanges.cs" />
+    <Compile Include="Migrations\201812132224317_VideosNameChanges.Designer.cs">
+      <DependentUpon>201812132224317_VideosNameChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812132231224_VideoRest.cs" />
+    <Compile Include="Migrations\201812132231224_VideoRest.Designer.cs">
+      <DependentUpon>201812132231224_VideoRest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,6 +97,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812122021576_ClassificationEnum.resx">
       <DependentUpon>201812122021576_ClassificationEnum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812132224317_VideosNameChanges.resx">
+      <DependentUpon>201812132224317_VideosNameChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812132231224_VideoRest.resx">
+      <DependentUpon>201812132231224_VideoRest.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

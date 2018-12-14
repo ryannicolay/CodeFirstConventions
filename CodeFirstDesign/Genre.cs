@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace CodeFirstDesign
+namespace CodeFirstConventions
 {
     public class Genre
     {

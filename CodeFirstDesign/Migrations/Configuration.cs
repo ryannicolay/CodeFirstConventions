@@ -5,14 +5,14 @@ namespace CodeFirstDesign.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<CodeFirstDesign.Program.VidzyCodeFirstContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<CodeFirstConventions.Program.VidzyCodeFirstContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(CodeFirstDesign.Program.VidzyCodeFirstContext context)
+        protected override void Seed(CodeFirstConventions.Program.VidzyCodeFirstContext context)
         {
             //  This method will be called after migrating to the latest version.
 

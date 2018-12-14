@@ -2,7 +2,7 @@
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeFirstDesign
+namespace CodeFirstConventions
 {
     partial class Program
     {
